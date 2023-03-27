@@ -1,0 +1,275 @@
+html {
+    /* color: rgb(67, 78, 240); */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto' sans-serif;
+    /* font-size: 15px; */
+    /* font-weight: bold; */
+    text-align: justify;
+    /* font-style: italic; */
+    /* font-size: 1rem; */
+    color: #444444;
+    
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    line-height: 1.5;
+    /* font-weight: 500;
+    color: #222222; */
+    
+}
+
+  
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.8rem; }
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0;
+}
+
+#logo {
+    height: 40px;
+}
+
+h1 { 
+    text-align: center;
+    color: darkblue;
+    font-size: 2.5 rem;
+}
+
+#It {
+    width:100%;
+    object-fit: cover;
+}
+
+
+
+#about {
+    display: inline-flex;
+    /* width:  800px; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    display: block;
+    width: 440px;
+    height: 210px;
+    padding-right: 8px;
+    margin: 0 auto;
+    font-size: 1rem;
+
+}
+
+#computer {
+    width: 20%;
+    border-color: black;
+}
+
+#computer-image {
+    display: block;
+    border-radius: 5px;
+    width: 550px;
+    height: 440px;
+    border-color:#0a0a0a;
+    
+
+}
+
+/* .location {
+    color: gray;
+    margin-bottom: 16px;
+} */
+
+#table {
+    width: 100%;
+    border: 1px solid gray ;
+    border-collapse: collapse;
+}
+
+.header-row th {
+    border: 1px solid gray;
+    padding:  8px;
+    text-align: center;
+    background-color: #BFDBFE;
+    color: #222222;
+}
+
+#table td {
+    border: 1px solid gray;
+    padding: 8px;
+    
+   
+}
+
+#table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+#projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+
+}
+
+h3 {
+    margin-bottom:0 ;
+}
+
+.apply {
+    float: right;
+}
+
+#footer {
+    background-color: lightgray ;
+    padding: 8px;
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+    
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: gray;
+}
+
+#get-touch-button {
+    display: block;
+    border-style: none;
+    border-radius: 4px;
+    /* left: 70px;
+    top: 366px; */
+    z-index: 16;
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    /* background: yellowgreen; */
+    background: rgba(240,84,67,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #ffffff;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    padding-top: 8px;
+}
+
+
+#block1 {
+    display: block;
+    background: rgba(63,61,86,1);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 297px;
+    position: relative;
+}
+#banner {
+    position: absolute;
+    background: none;
+    height: 297px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display:block;
+
+}
+
+.block-content {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1142px;
+    height: 297px;
+}
+
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+
+}
+
+#application-form  label{
+    font-weight: 600;
+
+}
+
+#application-form  input, textarea{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border-color: 1px solid gray;
+}
+
+/* #application div {
+    margin: 16px;
+} */
+.form-group {
+    margin: 8px 0;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color:#3B82F6 ;
+    color: white;
+    font-weight: 500;
+    /* padding: 16px 16px 16px 16px; */
+    cursor: pointer;
+}
